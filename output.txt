@@ -1,0 +1,28 @@
+Here is a simple C program that calculates the sum of two numbers entered by the user:
+
+```c
+#include <stdio.h>
+
+int main() {
+   int num1, num2, sum;
+
+   printf("Enter number 1: ");
+   scanf("%d", &num1);
+
+   printf("Enter number 2: ");
+   scanf("%d", &num2);
+
+   sum = num1 + num2;
+
+   printf("Sum = %d\n", sum);
+
+   return 0;
+}
+```
+
+Explanation:
+- The program first declares three variables `num1`, `num2`, and `sum` to store the two numbers entered by the user and their sum respectively.
+- It then prompts the user to enter the first number using the `printf` function and stores the input in the `num1` variable using the `scanf` function.
+- Similarly, it prompts the user to enter the second number and stores the input in the `num2` variable.
+- The sum of the two numbers is calculated and stored in the `sum` variable.
+- Finally, the program prints the sum using the `printf` function.
